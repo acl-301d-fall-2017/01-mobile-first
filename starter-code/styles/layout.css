@@ -4,3 +4,8 @@
 .pull-left{
     float: left;
 }
+.icon-menu{
+    position: absolute;
+    left: 94%;
+    top: 0%;
+}
