@@ -3,11 +3,11 @@ body{
 }
 
 .heading-group-h1{
-    background-color: tan;
+    background-color: rgb(254, 233, 173);
     padding: 30px 10px;
 }
 .main-nav{
-    background-color: tan;
+    background-color: rgb(254, 233, 173);
 }
 
 h1, h2{
@@ -34,7 +34,7 @@ ul li{
 
 a{
     text-decoration: none;
-    color: grey;
+    color: rgb(119, 119, 119);
 }
 
 h1{
@@ -55,7 +55,7 @@ h1{
 
 .byline{
     display: flex;
-    color: grey;
+    color: rgb(119, 119, 119);
 }
 
 .byline address a, time{
@@ -66,3 +66,51 @@ h1{
     font-weight: bold;
 }
 
+
+
+/* ////////////////
+
+MEDIA QUERIES
+
+//////////////// */
+
+
+@media screen and (max-width: 640px) {
+    .icon-menu {
+        position: absolute;
+        margin: 8px 2px 0 0;
+        top: 0;
+        right: 0;
+        font-size: 45px;
+    }
+
+    .main-nav ul {
+        display: none;
+    }
+
+    .icon-menu:hover + ul{
+        display: block;
+        padding-left: 3px;
+        padding-bottom: 2px;
+    }
+
+    ul li {
+        border-bottom: solid 1px rgb(204, 204, 204);
+        padding-bottom: 15px;
+    }
+
+    .byline {
+        font-size: 9pt;
+    }
+
+    img {
+        width: 100%;
+        padding: 15px 0;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .icon-menu {
+        display: none;
+    }
+}
