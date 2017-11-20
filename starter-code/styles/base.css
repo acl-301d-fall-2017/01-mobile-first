@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+}
+
+.heading-group-h1{
+    background-color: tan;
+    padding: 30px 10px;
+}
+.main-nav{
+    background-color: tan;
+}
+
+h1, h2{
+    margin: 0;
+    margin-top: 20px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+ul li{
+    padding-right: 10px;
+    font-size: 15pt;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#articles{
+    margin: 0 15px;
+}
+
+.pull-right{
+    float: right;
+}
+
+.pull-left{
+    float: left;
+}
+
+.byline{
+    display: flex;
+    color: grey;
+}
+
+.byline address a, time{
+    padding: 0 5px;
+}
+
+.byline address a{
+    font-weight: bold;
+}
+
