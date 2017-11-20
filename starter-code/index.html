@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
-
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-  
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <meta name="viewport" content="width=device-width, inital-scale=1">
+  <link rel="stylesheet" href="styles/vendor/normalize.css">
+  <link rel="stylesheet" href="styles/icons.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/modules.css">
   
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- PUT YOUR RESPONSE HERE -->
+  
+  <!-- Normalize.css will set all browsers setting to be uniform for styling from the start. Base will give default styles with element selectors. Layouts will style major containers. Modules will style the indiviudal components within the layouts. The cascading order of the stylesheets is to be certain that your global styles will load before custom styles.
+   -->
 
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/alchemycodelab/code-301-prework/master/acl-logo.PNG?s=100">
