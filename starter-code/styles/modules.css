@@ -3,6 +3,24 @@
     float: right;
 }  */
 
-.site-header{
+.main-nav{
     display: flex;
+    position: relative
 }
+
+.icon-menu{
+    position: absolute;
+    right: 5px;
+    top: -50px;
+    width: 50px;
+}
+
+ul {
+    display: none
+}
+
+.icon-menu:hover + ul {
+    display: block;
+    color: grey
+}
+
