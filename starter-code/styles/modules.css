@@ -1,8 +1,3 @@
- /* .icon-menu{
-    position: absolute;
-    float: right;
-}  */
-
 .main-nav{
     display: flex;
     position: relative
@@ -11,16 +6,29 @@
 .icon-menu{
     position: absolute;
     right: 5px;
-    top: -50px;
-    width: 50px;
+    top: -150px;
 }
 
-ul {
-    display: none
+nav ul {
+    display: none;
 }
 
+nav li {
+    border-bottom: 1px solid grey;
+    padding: 5px 0 5px 0
+}
 .icon-menu:hover + ul {
     display: block;
-    color: grey
+    width: 100%;
+    color: grey;
+    font-family: serif;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+/* add padding to byline elements */
+address,
+time {
+    padding: 0 0.5em 0 0.5em
 }
 

@@ -1,13 +1,45 @@
-.site-header{
-    background-color: #faeaaa;
-}
 
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif
+}
+
+.site-header{
+    background-color: #faeaaa;
+}
+
+.heading-group-h1 {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.heading-group-h1 h1 {
+    font-size: 2em;
 }
 
 a {
     text-decoration: none;
     color: grey
+}
+
+.byline {
+    color: grey;
+    display: flex;
+}
+
+h1 {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+p {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
