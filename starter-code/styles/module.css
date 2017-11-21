@@ -1,0 +1,14 @@
+.heading-group-h1 {
+        text-align:left;
+    }
+
+.main-nav {
+    display: block;
+}
+
+.icon-menu {
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+}
+

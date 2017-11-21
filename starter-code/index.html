@@ -6,13 +6,16 @@
   <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  <link rel="stylesheet" src="acl:301/vendor/styles/normalize.css">
+   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/module.css">
+  
+ <link rel="stylesheet" href="styles/vendor/normalize.css">
   <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-  <link rel="stylesheet" src="styles/icons.css">
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <linke rel="stylesheet" src="styles/base.css">
-  <linke rel="stylesheet" src="styles/layout.css">
-  <linke rel="stylesheet" src="styles/module.css">
+  <link rel="stylesheet" href="styles/icons.css" >
+  
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- We started by loading our normalize.css and icons file and then we are ordering from the "ground up": base to layout to module -->
 
@@ -29,8 +32,7 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-      <div>
-        <span class="icon-menu"></span>
+      <div class="icon-menu" width="1000px" height="1000px">
       </div>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
