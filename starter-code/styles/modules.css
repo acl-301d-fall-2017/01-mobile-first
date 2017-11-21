@@ -1,12 +1,12 @@
 .main-nav{
     display: flex;
-    position: relative
+    position: relative;
 }
 
 .icon-menu{
     position: absolute;
     right: 5px;
-    top: -150px;
+    top: -130px;
 }
 
 nav ul {
@@ -15,15 +15,38 @@ nav ul {
 
 nav li {
     border-bottom: 1px solid grey;
-    padding: 5px 0 5px 0
-}
-.icon-menu:hover + ul {
-    display: block;
-    width: 100%;
+    padding: 5px 0px 5px 0px;
     color: grey;
     font-family: serif;
     margin-bottom: 15px;
     font-size: 1.5em;
+}
+
+.icon-menu:hover + ul {
+    display: block;
+    width: 100%;
+}
+
+
+@media (min-width: 640px) {
+    .icon-menu {
+        visibility: hidden;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        padding-left: 30px;
+    }
+
+    nav ul li {
+        padding-right: 30px;
+        border-bottom: none;
+    }
+
+    img {
+        width: inherit;
+    }
 }
 
 /* add padding to byline elements */

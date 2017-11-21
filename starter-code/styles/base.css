@@ -5,6 +5,10 @@
     font-family: sans-serif
 }
 
+img {
+    width: 100%;
+}
+
 .site-header{
     background-color: #faeaaa;
 }
@@ -30,8 +34,9 @@ a {
 }
 
 h1 {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2em;
 }
 
 main {
