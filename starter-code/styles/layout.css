@@ -4,5 +4,7 @@ body {
     margin: 0;
 }
 
-@media screen and (min-width: 640px) {
+#articles {
+    padding-top: 20px;
+    padding-left: 15px;
 }
