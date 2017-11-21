@@ -3,12 +3,13 @@
     }
 
 .main-nav {
-    display: block;
+    position: relative;
 }
 
 .icon-menu {
-    float: right;
+    position:absolute;
+    bottom:150px;
+    right:2%;
     margin: 0 auto;
-    padding: 0;
 }
 
