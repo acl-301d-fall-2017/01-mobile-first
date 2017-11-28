@@ -138,9 +138,9 @@ _Your repository must include:_
 _Your README.md must include:_
 
 ```md
-# Project Name
+#Lab1-mobile-first
 
-**Author**: Your Name Goes Here
+**Author**: Katlyn Tucker
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
