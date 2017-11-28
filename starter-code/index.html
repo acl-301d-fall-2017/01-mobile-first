@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
 
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
+  <link rel="stylesheet" type="text/css" href="../vendor/styles/normalize.css">
 
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
+  <link rel="stylesheet" type="text/css" href="styles/icons.css">
   
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <link rel="stylesheet" type="text/css" href="styles/base.css">
+  <link rel="stylesheet" type="text/css" href="styles/layout.css">
+  <link rel="stylesheet" type="text/css" href="styles/modules.css">
+  <link rel="stylesheet" type="text/css" href="styles/state.css">
+  <link rel="stylesheet" type="text/css" href="styles/theme.css">
   
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- PUT YOUR RESPONSE HERE -->
-
+  <!-- PUT YOUR RESPONSE HERE: The generic broad settings we put first, and then the sheets get more specific as they go down the list. -->
+  
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/alchemycodelab/code-301-prework/master/acl-logo.PNG?s=100">
 </head>
 <body>
   <header class="site-header">
     <section class="heading-group-h1">
-      <h1>
+      <h1 id='mainTitle'>
         Kilovolt Blog!
       </h1>
       <h2>The shocking power of static pages</h2>
@@ -35,19 +39,19 @@
         <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
     </nav>
+    <!-- hamburger -->
   </header>
   <main>
     <section id="articles" class="tab-content">
       <!-- REVIEW: Note that the articles have multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
       <article class="blog-post clearfix" data-category="bacon">
       <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words why and how they are used. Article: https://css-tricks.com/snippets/css/clear-fix/ -->
-      <!-- PUT YOUR RESPONSE HERE -->
+      <!-- PUT YOUR RESPONSE HERE You apply it to any parent element in which you want to clear the floats. -->
           <header>
             <h1>Bacon Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
             <div class="byline">
-              By <address><a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a></address>
-              published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
+              By <br><address><a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon <br></a></address>published <br><time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
             </div>
           </header>
           <section class="article-body"><p>Bacon ipsum dolor amet do ex andouille minim, kielbasa consectetur t-bone. Ullamco alcatra deserunt, occaecat sed drumstick prosciutto. Cupim sed ullamco cow ham hock turkey pariatur. Officia landjaeger minim, tenderloin salami ribeye cupidatat. Consequat reprehenderit shank nostrud proident shoulder mollit flank. Excepteur quis occaecat kevin officia, ribeye sausage chuck et pig.</p><p><img src="http://baconmockup.com/600/300/" class="pull-right">
