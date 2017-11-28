@@ -1,0 +1,14 @@
+/* this is our base */
+
+h1, h2 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+p {
+    font-family: sans-serif;
+}

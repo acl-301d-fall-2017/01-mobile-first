@@ -1,0 +1,10 @@
+/* our layout,css */
+
+body {
+    margin: 0;
+}
+
+#articles {
+    padding-top: 20px;
+    padding-left: 15px;
+}
