@@ -9,6 +9,7 @@
 .icon-menu {
     position:absolute;
     bottom:150px;
+    font-size: 200%;
     right:2%;
     margin: 0 auto;
 }
