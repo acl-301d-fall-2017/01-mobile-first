@@ -42,10 +42,6 @@
 .icon-power:before {
 	content: "\e90a";
 }
-/* hamburger */
-.icon-menu:before {
-	content: "\e902";
-}
 /* chain link */
 .icon-link:before {
 	content: "\e903";
